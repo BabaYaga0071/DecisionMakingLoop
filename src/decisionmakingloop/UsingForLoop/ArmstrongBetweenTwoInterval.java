@@ -12,7 +12,7 @@ public class ArmstrongBetweenTwoInterval {
             int  armNumber,exponent=0,result = 0,rem;
             armNumber = i;
             
-            for (;armNumber!=0;armNumber/=10,exponent++);
+            for (;armNumber!=0;armNumber/=10,exponent++); // counting total number and counted it to exponent
             armNumber = i;
             for (;armNumber!=0;) {
                 rem = armNumber%10;
